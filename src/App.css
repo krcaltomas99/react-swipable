@@ -6,6 +6,11 @@
   color: #61dafb;
 }
 
+.wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 .page {
   position: absolute;
   left: 0;
@@ -99,4 +104,9 @@
   opacity: 0;
   transition: 400ms ease-in-out;
   pointer-events: none;
+}
+
+.page a {
+  color: #333;
+  margin: 0 10px;
 }
