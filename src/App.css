@@ -1,8 +1,10 @@
 .App {
   text-align: center;
-  overflow: hidden;
 }
 
+body {
+  overflow: hidden;
+}
 .App-link {
   color: #61dafb;
 }
